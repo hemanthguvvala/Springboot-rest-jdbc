@@ -1,0 +1,12 @@
+
+#In this application.yaml file we provide the required data to connect the local MySQL database
+app:
+  datasource:
+    jdbc-url: jdbc:mysql://127.0.0.1:3306/springrest?useSSL=false
+    username: root
+    password: hemanth
+    driver-class: com.mysql.cj.jdbc.Driver
+
+#In this, we can change the server port as we want
+server:
+  port= 8081
